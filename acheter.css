@@ -1,3 +1,14 @@
+@font-face{
+    font-family: 'Almarai';
+    src: url('/police/Almarai/Almarai-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Almarai-bold';
+    src: url('/police/Almarai/Almarai-ExtraBold.ttf');
+}
+
+
 #title_bag{
     font-family: Almarai-bold;
     margin-top: 2em;
