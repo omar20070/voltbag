@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'Almarai';
+    src: url('/police/Almarai/Almarai-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Almarai-bold';
+    src: url('/police/Almarai/Almarai-ExtraBold.ttf');
+}
+
+html{
+    --black : black;
+}
+
+#logo{
+    width: 15em;
+    margin-left: 3em;
+    height: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    display: flex;
+    margin-right: 3em;
+}
+
+a{
+    color: var(--black);
+    text-decoration: none;
+    font-family: Almarai;
+    padding-bottom: 5px;
+    font-size: 1.25rem;
+    
+}
+
+a:hover{
+    border-bottom: var(--black) solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.5s all;
+}
+
+.active{
+    color: #A37C4E;
+}

@@ -1,0 +1,75 @@
+#title_bag{
+    font-family: Almarai-bold;
+    margin-top: 2em;
+    margin-left: 3em;
+    font-size: 2.3rem;
+}
+
+#title_color, #title_model {
+    font-family: Almarai;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.8rem;
+}
+
+
+#product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+#img_product{
+    border-radius: 30px;
+    width: 800px;
+    height: auto;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: Almarai;
+    font-size: 1rem;
+}
+
+#button_model{
+    text-align: center;
+}
+
+#button_size{
+    margin-top: -40px;
+}
+
+#button_color{
+    margin-top: -40px;
+}
+
+#color_red{
+    background-color: red;
+}
+
+#color_blue{
+    background-color: blue;
+}
+
+#color_green{
+    background-color: green;
+}
+
+#color_yellow{
+    background-color: yellow;
+}
+
+#img_size{
+    text-align: center;
+}
+
+p{
+    font-family: Almarai-bold;
+    background-color: rgba(212, 211, 211, 0.562);
+    border-radius: 40px;
+    padding: 10px;
+}

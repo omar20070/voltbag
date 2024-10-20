@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    transform: translateY(30%);
+    margin-left: 3em;
+    justify-content: space-between;
+}
+
+p{
+    font-family: Almarai-bold;
+    font-size: 3rem;
+}
+
+#img_div{
+    position: relative;
+}
+
+#img_backpack_1{
+    position: relative;
+    top: -10em;
+    width: auto;
+    height: 40em;
+    left: -3em;
+    border-radius: 90px;
+}
+
+#img_backpack_2{
+    position: absolute;
+    top: 10em;
+    right: 28.3rem;
+    width: auto;
+    height: 28em;
+    border-radius: 90px;
+}
+
+#text_2{
+    position: relative;
+    transform: translateX(40%);
+    top:-1em;
+}
+
+#button_nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15em;
+}
+
+#button_logo{
+    margin-left: 1.5em;
+    background-color: rgb(255, 255, 255);
+    filter: invert(100%);
+    padding: 30px;
+    border-radius: 100px;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    50%{transform: scale(1.2);}
+}

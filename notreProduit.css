@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: Almarai-bold;
+}
+
+#origine_text > h1{
+    font-family: Almarai;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.text_black{
+    font-family: Almarai;
+    font-size: 1.6rem;
+    max-width: 600px;
+    color: white;
+    margin-left: 5em;
+}
+
+.black{
+    position: relative;
+    left: 0px;
+    margin-top: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100vw;
+}
+
+.text_white{
+    font-family: Almarai;
+    font-size: 1.6rem;
+    max-width: 600px;
+    margin-right: 5em;
+}
+
+.white{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Almarai;
+}
+
+#information_logo{
+    margin-left: 5em;
+}
+
+#product_img{
+    filter: invert(100%);
+    margin-right: 5em;
+}
+
+#production_img{
+    margin-left: 5em;
+    width:200px;
+}
+
+#vid{
+    width: 300px;
+    margin-right: 8em;
+    height: auto;
+    animation-name: planet;
+    animation-duration: 3.5s;
+    /* filter:opacity(50%); */
+}
+
+@keyframes planet {
+    0%{
+        transform: translateX(-20%);
+    }
+}
